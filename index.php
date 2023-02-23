@@ -57,7 +57,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['token_response'])){
         $gender= $_POST["gender"];
         $country= $_POST["country"];
         $addInfo = $_POST["addInfo"];
-        $toEmail = "poojag102002@gmail.com";
+        $toEmail = "info@webmonk.solutions";
 
         $mailHeaders = "First Name: " . $fname . 
         "\r\n Last Name: ". $lname .
